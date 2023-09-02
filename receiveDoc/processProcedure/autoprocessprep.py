@@ -24,7 +24,7 @@ from utils.textpurify import extract_names_from_niban
 from utils.constants import translatenames
 from prepareData.evaluateopinions import add_nextnames
 from prepareData.loaddf import simpleloaddf
-from prepareData.malicious import write_nibansheet
+from prepareData.miscellaneous import write_nibansheet
 
 import logging.config
 import yaml
